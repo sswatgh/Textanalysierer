@@ -13,7 +13,7 @@ Dieses Script kann Webseiten oder CSV-Dateien wie folgt bearbeiten:
 ## Installation
 
 1. Repo lokal speichern
-2. Abhängigkeiten installieren:
+2. Abhängigkeiten installieren
 
 ```bash
 pip install requests beautifulsoup4 textblob-de matplotlib wordcloud nltk
@@ -23,22 +23,22 @@ pip install requests beautifulsoup4 textblob-de matplotlib wordcloud nltk
    - Dateiname und Speicherot: `stopwords_de.txt` im gleichen Ordner wie `main.py`
    - pro Zeile ein Stoppwort in Kleinbuchstaben
 
-(ohne Stoppwörter-Datei werden deutsche Stoppwörter von NLTK geladen)
+(ohne Stoppwörter-Datei werden deutsche Stoppwörter aus NLTK geladen)
 
 ---
 
 ## Nutzung
 
-- 1. Programm starten:
+1. Programm starten
 
 ```bash
 python main.py
 ```
 
-- 2. Eingabequelle wählen  
-   - `1` = Webseite (Format: `https://www.tagesschau.de`)  
+2. Eingabequelle wählen  
+   - `1` = Webseite (z.B. `https://www.tagesschau.de`, Format zwingend)  
    - `2` = CSV-Datei (beliebiger Textinhalt)
-- 3. Analyseoptionen wählen
+3. Analyseoptionen wählen
    - Kategorienanalyse
    - Sentiment-Analyse
    - Visualisierungen erstellen
@@ -58,10 +58,6 @@ python main.py
 - Anpassung der Kategorien in `analysator.py` möglich  
 - eigene Stoppwörter einfach in `stopwords_de.txt` eintragen
 - bei Webcontent-Analyse wird nur die Webseite analysiert, nicht die komplette Domain
-- Das Tool eignet sich als Grundlage für:
-  - Content-Analyse
-  - Themen-Clustering
-  - Text-Mining-Projekte
 
 ---
 
