@@ -20,7 +20,7 @@ pip install requests beautifulsoup4 textblob-de matplotlib wordcloud nltk
 ```
 
 3. ggf. Stoppwörter-Datei anlegen/erweitern  
-   - Dateiname und Speicherot: `stopwords_de.txt` im gleichen Ordner wie `main.py`
+   - Dateiname und Speicherort: `stopwords_de.txt` im gleichen Ordner wie `main.py`
    - pro Zeile ein Stoppwort in Kleinbuchstaben
 
 (ohne Stoppwörter-Datei werden deutsche Stoppwörter aus NLTK geladen)
